@@ -1,0 +1,8 @@
+lacrimation,abnormal_salivation,nasal_discharge,lameness,firm_nodules_on_the_skin,enlarged_lymph_nodes,swollen_sore_legs,loss_of_appetite,eyes_nose_discharge,drop_in_milk,weight_loss,blisters_in_mouth_and_feet,blisters_on_teats,dullness,shivering,rough_coat,enlarged_parotid_gland,reluctant_to_move,anaemia,jaundice,severe_diarrhoea,swelling_in_the_neck,cloudiness_of_the_eyes,breathing_difficulty,cyanosis_of_the_tongue,swelling_of_tongue_and_face,prognosis
+1,1,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,lumpy skin
+0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,foot and mouth
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,theileriases
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,babesiosis
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,anaplasmosis
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,anthrax
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,blue tongue
