@@ -1,0 +1,15 @@
+date,time ,pulse_rate,cattle_id,cattle_gender,cattle_age
+17-10-2019,12:07:02,50 b/s,1,male,adult
+17-10-2019,12:07:04,51 b/s,2,female,calf
+17-10-2019,12:07:06,52 b/s,3,male,adult
+17-10-2019,12:07:08,53 b/s,4,female,calf
+17-10-2019,12:07:10,54 b/s,5,female,calf
+17-10-2019,12:07:12,55 b/s,6,male,adult
+17-10-2019,12:07:14,56 b/s,7,female,adult
+17-10-2019,12:07:16,57 b/s,8,female,calf
+17-10-2019,12:07:18,58 b/s,9,male,calf
+17-10-2019,12:07:20,59 b/s,10,male,adult
+17-10-2019,12:07:22,60 b/s,11,female,adult
+17-10-2019,13:07:22,61 b/s,12,male,calf
+17-10-2019,14:07:22,62 b/s,13,male,calf
+17-10-2019,15:07:22,63 b/s,14,female,adult
