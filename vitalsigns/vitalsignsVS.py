@@ -1,20 +1,21 @@
 import pandas as pd
-import numpy as  np
-
 pul = pd.read_csv("pulse.csv")
-#print(pul.head)
-#print(pul.pulse_rate)
 # Select the pulse_rate and cattle_gender columns from the DataFrame
 x  = pul[['pulse_rate', 'cattle_gender']]
-print(x)
-# iterating the columns
-for col in pul.columns:
-    print(col)
-#listing columns
-list(pul.columns)
-print("*************")
-for( columnName, columnData) in pul.iteritems():
-    print('column contents : ', columnData.values)
-    y = columnData.values
-    if(45<y<85):
-        print("pulse or heart rate is abnormal")
+
+calves = []
+adults = []
+abnormal =[]
+for  index, row in pul.iterrows():
+     pulse_rate = float(row['pulse_rate'])
+     if pulse_rate>=100 and pulse_rate<=150:
+         calves.append({'cattle_id':row['cattle_id'], 'pulse_rate':row['pulse_rate']})
+     elif pulse_rate >= 45 and pulse_rate <= 85:
+         adults.append({'cattle_id':row['cattle_id'], 'pulse_rate':row['pulse_rate']})
+     else:
+         abnormal.append({'cattle_id':row['cattle_id'],'pulse_rate':row['pulse_rate']})
+#print(calves)
+# print(adults)
+# print("abnornal ",abnormal)
+for i in abnormal:
+    print(" Cattle with id {0} has an abnormal pulse rate of {1}".format(i['cattle_id'],i['pulse_rate']))
