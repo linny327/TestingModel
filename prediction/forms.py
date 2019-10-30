@@ -3,6 +3,7 @@ from django import forms
 
 class PredictionForm(forms.Form):
     SYMPTOMS_CHOICES = (
+        ('Choose A Symptom', 'Choose A Symptom'),
         ('lacrimation', 'lacrimation'),
         ('abnormal_salivation', 'abnormal_salivation'),
         ('nasal_discharge', 'nasal_discharge'),

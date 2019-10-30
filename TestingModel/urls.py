@@ -6,8 +6,8 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('prediction.urls')),
-    path('', include('vitalsigns.urls'))
-    #path('api/', prediction.site.urls),
+    path('',include('detection.urls')),
+    path('', include('vitalsigns.urls')),
+    path('', include('dashboard.urls')),
 
 ]

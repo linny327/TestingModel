@@ -16,7 +16,7 @@ from .serializers import PredictionsSerializers
 from django.http import HttpResponse
 from django.http import JsonResponse
 from django.contrib import messages
-
+import datetime
 
 # Create your views here.
 class PredictionsView(viewsets.ModelViewSet):
@@ -48,6 +48,11 @@ class PredictionsView(viewsets.ModelViewSet):
 
 # @api_view(["POST"])
 model = joblib.load("/Users/Linny/PycharmProjects/TestingModel/prediction/model.pkl")
+def current_datetime(request):
+    now = datetime.datetime.now()
+    html = "<html><body>It is now %s.</body></html>" % now
+    return HttpResponse(html)
+
 def approvereject(request):
     try:
         # data = request.data

@@ -76,6 +76,7 @@ def cxvitals(request):
             print(abnorn)
         # return abnorn
         messages.success(request, " Cattle with id {0} has an abnormal pulse rate of {1}".format(i['cattle_id'], i['pulse_rate']))
-    form = VitalsForm()
+        vtab = " Cattle with id {0} has an abnormal pulse rate of {1}".format(i['cattle_id'], i['pulse_rate'])
+    form = vtab
     return render(request, 'myform/vitals.html', {'form': form})
 

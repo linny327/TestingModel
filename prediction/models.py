@@ -4,6 +4,7 @@ from django.db import models
 # Create your models here.
 class Predictions(models.Model):
     SYMPTOMS_CHOICES = (
+        ('Choose A Symptom', 'Choose A Symptom'),
         ('lacrimation', 'lacrimation'),
         ('abnormal_salivation', 'abnormal_salivation'),
         ('nasal_discharge', 'nasal_discharge'),
